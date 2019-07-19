@@ -1,48 +1,46 @@
-*{
-    margin:0;
-    padding:0;
-}
-
-.principal{
-    width: 1000px;
-    height: 900px;
-    
-}
-body{
-    background-color:#1a1a1a;
-}
-h1{
-    margin-left: 350px;
-    text-shadow:2px 2px 2px whitesmoke;
-    font-size:5em;
-    margin-bottom:0;
-    color:red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-header{
-    width:200px;
-    height:700px;
-    background-color: blue;
-    float:right;
-    margin-left:0;
-}
-nav{
-    width:200px;
-    height:200px;
-    background-color:red;
-    float:right;
-    margin-left: 50px;
-
-}
-section{
-    
-}
-aside{
-    width:300px;
-    height:800px;
-    background-color: grey;
-    float:left;
-    margin-left:0;
+* {
+    margin: 0;
     padding: 0;
-    
 }
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+.corpo{
+    width: 100%;
+    height: 90%;
+    background:brown;
+}
+.rodape{
+    background: #282828;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+}
+.logospotfy{
+    width:70%;
+    margin-left:5%;
+    margin-top:5%;
+}
+.inconsmenu{margin-left:0; width:15px; }
+
+
+
+.listaHome ul li{
+    margin-left:0%;
+    margin-top:5%;
+    width:50%;
+    height:20%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;}
+.listaHome, ul,a{ display:block; background-color: black; color:darkgray; text-decoration:none; padding:5%; }
+
+
+
+
+.albunfoto{ box-shadow:0 0 5px black; margin-top:5%; margin-left:25%;}
+.menu{ width: 20%; height: 100%; background: black;float: left;}
+.albuns{width: 50%; height: 100%; background:#171717;float: left;}
+.musicas{width: 30%;  height: 100%; background:#171717;float: left; box-shadow:0 0 4px;}
