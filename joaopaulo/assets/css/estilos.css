@@ -7,12 +7,14 @@ html {
     width: 100%;
     height: 100%;
     color:darkgray!important;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: hidden;
 }
 .corpo{
     width: 100%;
     height: 90%;
     background:brown;
+    overflow: hidden;
 }
 .rodape{
     background: #282828;
@@ -62,6 +64,6 @@ div.add img{ width: 100%}
 
 .albunfoto{ box-shadow:0 0 5px black; margin-top:5%; width:130% }
 .capa{margin-left: auto; margin-right: auto;width:30%}
-.menu{ width: 14%; height:100%; background: black;float: left;overflow: auto;}
+.menu{ width: 14%; height:100%; background: black;float: left; overflow: hidden}
 .albuns{width: 50%; height: 100%; background:#171717;float: left;}
 .musicas{width: 36%;  height: 100%; background:#171717;float: left; box-shadow:0 0 4px black;}
