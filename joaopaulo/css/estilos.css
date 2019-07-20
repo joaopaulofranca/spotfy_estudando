@@ -7,6 +7,7 @@ html {
     width: 100%;
     height: 100%;
     color:darkgray!important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .corpo{
     width: 100%;
@@ -43,12 +44,15 @@ html {
     list-style-type: none;
 }
 .submenu ul li{list-style-type: none;height: 32px;}
+.submenu h5{margin-bottom:10%;margin-left:11%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+.listaHome, ul,a{ font-size:85%;display:block; background-color: black; color:darkgray; text-decoration:none; padding:5%; }
 
-.listaHome, ul,a{ display:block; background-color: black; color:darkgray; text-decoration:none; padding:5%; }
+
+.addText{margin-bottom:-10px;padding-top:5px;font-size:90%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+#barra ul li a:hover{background:#393939}
 
 
-.addText{ padding-top: 6px; }
-.add{width: 8%;margin: auto; background:#a19a9a; padding: 5px; float: left; margin-left: 25px;margin-right: 10px}
+.add{width: 10%;margin: auto; background:#a19a9a; padding: 4px; float: left; margin-left: 20px;margin-right: 5px}
 .imgadd{ width: 65%; margin: auto;}
 div.add img{ width: 100%}
 
@@ -56,8 +60,8 @@ div.add img{ width: 100%}
 
 .newPlaylist{margin-bottom: 15px}
 
-.albunfoto{ box-shadow:0 0 5px black; margin-top:5%; width: 100% }
+.albunfoto{ box-shadow:0 0 5px black; margin-top:5%; width:130% }
 .capa{margin-left: auto; margin-right: auto;width:30%}
-.menu{ width: 12%; height: 100%; background: black;float: left;}
-.albuns{width: 58%; height: 100%; background:#171717;float: left;}
-.musicas{width: 30%;  height: 100%; background:#171717;float: left; box-shadow:0 0 4px;}
+.menu{ width: 14%; height:100%; background: black;float: left;}
+.albuns{width: 50%; height: 100%; background:#171717;float: left;}
+.musicas{width: 36%;  height: 100%; background:#171717;float: left; box-shadow:0 0 4px black;}
