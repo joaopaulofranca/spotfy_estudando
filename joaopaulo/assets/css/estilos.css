@@ -64,6 +64,6 @@ div.add img{ width: 100%}
 
 .albunfoto{ box-shadow:0 0 5px black; margin-top:5%; width:130% }
 .capa{margin-left: auto; margin-right: auto;width:30%}
-.menu{ width: 14%; height:100%; background: black;float: left; overflow: hidden}
+.menu{ width: 14%; height:100%; background: black;float: left; overflow: hidden;position: relative;}
 .albuns{width: 50%; height: 100%; background:#171717;float: left;}
 .musicas{width: 36%;  height: 100%; background:#171717;float: left; box-shadow:0 0 4px black;}
