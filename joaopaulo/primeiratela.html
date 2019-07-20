@@ -5,13 +5,15 @@
 
 	<meta charset="uf-8">
 	<title>Primeira Tela</title>
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="assets/css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/perfect-scrollbar.css">
+	<script src="assets/js/perfect-scrollbar.min.js"></script>
 </head>
 
 <body>
 	<div class="corpo">
 		<!--MENU-->
-		<div class="menu">
+		<div class="menu" id="menu">
 			<img src="img/Spotify_Logo_RGB_White.png" alt="" class="logospotfy">
 
 
@@ -19,46 +21,49 @@
 
 
 				<ul>
-					<li class="navBar-item"><a href="home.html"><img src="img/home.svg" alt="" class="home inconsmenu "> Home</a></li>
-					<li class="navBar-item"><a href="home.html"><img src="img/search.svg" alt="" class="homelupa inconsmenu "> Search</a></li>
-					<li class="navBar-item"><a href="yourLibrary"><img src="img/books.svg" alt="" class="library inconsmenu "> Your Library</a></li>
+					<li class="navBar-item"><a href="home.html"><img src="img/home.svg" alt="" class="home inconsmenu ">
+							Home</a></li>
+					<li class="navBar-item"><a href="home.html"><img src="img/search.svg" alt=""
+								class="homelupa inconsmenu "> Search</a></li>
+					<li class="navBar-item"><a href="yourLibrary"><img src="img/books.svg" alt=""
+								class="library inconsmenu "> Your Library</a></li>
 				</ul>
 			</div>
-			
+
 			<div class="submenu">
 				<h5>PLAYLISTS</h5>
 
 				<div class="newPlaylist">
 					<div class="add">
 						<div class="imgadd">
-							<img src="img/add.png " alt=""> 
+							<img src="img/add.png " alt="">
 						</div>
 					</div>
-					<div class="addText" >Create Playlist</div>
+					<div class="addText">Create Playlist</div>
 				</div>
 				<div id="barra">
-				
-				<ul >
-					<li><a href="#">Acustico MPB</a></li>
-					<li><a href="#">Brasil Anos 2000</a></li>
-					<li><a href="#">100 Riffs</a></li>
-					<li><a href="#">Ouvir depois</a></li>
-					<li><a href="#">All Out 90s</a></li>
-					<li><a href="#">Playlist Caio Bottura</a></li>
-					<li><a href="#">Eminem</a></li>
-					<li><a href="#">Workout Rock</a></li>
-					<li><a href="#">Discovering</a></li>
-					<li><a href="#">Iron Maiden - Rock in...</a></li>
-					<li><a href="#">Your Top Songs 2016</a></li>
-					<li><a href="#">workout</a></li>
-					<li><a href="#">Old Music</a></li>
-					<!--<li><a href="#">Senhor dos Anéis</a></li>
-					<li><a href="#">Discovered by Musixma...</a></li>
-					<li><a href="#">salvando musicas</a></li>
-					<li><a href="#">harvested songs</a></li>
-					<li><a href="#">Discover Weekly</a></li> -->					
-				</ul>
-					</div>
+
+					<ul>
+						<li><a href="#">Acustico MPB</a></li>
+						<li><a href="#">Brasil Anos 2000</a></li>
+						<li><a href="#">100 Riffs</a></li>
+						<li><a href="#">Ouvir depois</a></li>
+						<li><a href="#">All Out 90s</a></li>
+						<li><a href="#">Playlist Caio Bottura</a></li>
+						<li><a href="#">Eminem</a></li>
+						<li><a href="#">Workout Rock</a></li>
+						<li><a href="#">Discovering</a></li>
+						<li><a href="#">Iron Maiden - Rock in...</a></li>
+						<li><a href="#">Your Top Songs 2016</a></li>
+						<li><a href="#">workout</a></li>
+						<li><a href="#">Old Music</a></li>
+						<li><a href="#">Senhor dos Anéis</a></li>
+						<li><a href="#">Discovered by Musixma...</a></li>
+						<li><a href="#">salvando musicas</a></li>
+						<li><a href="#">harvested songs</a></li>
+						<li><a href="#">Discover Weekly</a></li> 
+					</ul>
+				</div>
 			</div>
 
 		</div>
@@ -74,6 +79,11 @@
 		</div>
 	</div>
 	<div class="rodape"></div>
+
+	<script>
+	var ps = new PerfectScrollbar("#menu");
+	$('#menu').perfectScrollbar();
+	</script>
 
 </body>
 
