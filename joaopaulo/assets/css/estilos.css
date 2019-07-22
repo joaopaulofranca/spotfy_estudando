@@ -37,7 +37,7 @@ html {
     font-weight:700;
 }
 
-.listaHome ul li{
+.listaHome{
     margin-left:0%;
     margin-top:5%;
     width:100%;
@@ -47,11 +47,13 @@ html {
 }
 .submenu ul li{list-style-type: none;height: 32px;}
 .submenu h5{margin-bottom:10%;margin-left:11%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-.listaHome, ul,a{ font-size:85%;display:block; background-color: black; color:darkgray; text-decoration:none; padding:5%; }
+a{ font-size:85%;display:block; color:darkgray; text-decoration:none; padding:5%; }
 
-
+.install{width:15px;}
+h3{font-size:17px; margin-top:10%; margin-left:5%;}
+#barraM > ul > li > a:hover {background-color: black !important;}
 .addText{margin-bottom:-10px;padding-top:5px;font-size:90%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-#barra ul li a:hover{background:#393939}
+#barra ul li a:hover{background:#212121}
 
 
 .add{width: 10%;margin: auto; background:#a19a9a; padding: 4px; float: left; margin-left: 20px;margin-right: 5px}
@@ -62,8 +64,15 @@ div.add img{ width: 100%}
 
 .newPlaylist{margin-bottom: 15px}
 
-.albunfoto{ box-shadow:0 0 5px black; margin-top:5%; width:130% }
+.albunfoto{ box-shadow:0 0 5px black; margin-top:5%; width:150% }
+/* LAYOUT DE MUSICAS*/
+#barraM li{font-size:110%;list-style-type: none;} 
+#barraM li a:hover{background-color: #171717; }
+
+.inconMusica{width:15px;}
+
+
 .capa{margin-left: auto; margin-right: auto;width:30%}
-.menu{ width: 14%; height:100%; background: black;float: left; overflow: hidden;position: relative;}
-.albuns{width: 50%; height: 100%; background:#171717;float: left;}
-.musicas{width: 36%;  height: 100%; background:#171717;float: left; box-shadow:0 0 4px black;}
+.menu{ width: 15%; height:100%; background: black;float: left; overflow: hidden;position: relative;}
+.albuns{width: 40%; height: 100%; background:#171717;float: left;}
+.musicas{width: 45%;  height: 100%; background-color:#171717;float: left; box-shadow:0 0 4px black; overflow:auto;}
