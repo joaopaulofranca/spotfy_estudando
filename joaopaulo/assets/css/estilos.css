@@ -45,18 +45,18 @@ html {
     font-family: Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,Meiryo,MS Gothic,sans-serif;
     list-style-type: none;
 }
+/*SUBMENU Playlist*/
 .submenu ul li{list-style-type: none;height: 32px;}
-.submenu h5{margin-bottom:10%;margin-left:11%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-a{ font-size:85%;display:block; color:darkgray; text-decoration:none; padding:5%; }
-
+.submenu h5{margin-top:5%;margin-bottom:5%;margin-left:5%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
+#barra a{ font-size:85%;display:block; color:darkgray; text-decoration:none; padding:5%; }
+.listaHome ul li a{ font-size:85%;display:block; color:darkgray;text-decoration:none;padding:2%;margin-left:5%;}
+#barra ul li a:hover{color:#202020;}
 .install{width:15px;}
-h3{font-size:17px; margin-top:10%; margin-left:5%;}
-#barraM > ul > li > a:hover {background-color: black !important;}
+h3{font-size:13px; margin-top:10%; margin-left:10%;margin-bottom:5%;}
 .addText{margin-bottom:-10px;padding-top:5px;font-size:90%;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif}
-#barra ul li a:hover{background:#212121}
 
 
-.add{width: 10%;margin: auto; background:#a19a9a; padding: 4px; float: left; margin-left: 20px;margin-right: 5px}
+.add{width: 10%;margin: auto; background:#a19a9a; padding: 3px; float: left; margin-left: 15px;margin-right:5px}
 .imgadd{ width: 65%; margin: auto;}
 div.add img{ width: 100%}
 
@@ -64,15 +64,116 @@ div.add img{ width: 100%}
 
 .newPlaylist{margin-bottom: 15px}
 
-.albunfoto{ box-shadow:0 0 5px black; margin-top:5%; width:150% }
-/* LAYOUT DE MUSICAS*/
-#barraM li{font-size:110%;list-style-type: none;} 
-#barraM li a:hover{background-color: #171717; }
 
-.inconMusica{width:15px;}
+/*ALBUM*/
+h2{font-size:140%;text-align: center; color:white;margin-left:10%;margin-top:2%;}
+h6{text-align:center;margin-left:10%;margin-top:1%;color:#404040;}
+.songs{margin-left:50%; margin-top:5%;}
+.albuns p{margin-left:33%;margin-top:5%; font-size:90%}
+.coracao{margin-left:50%;width:4%;}
+.albunfoto{ box-shadow:0 0 8px black;margin-left:5%; margin-top:5%;width:130%;}
+
+/* LAYOUT DE MUSICAS*/
+.music{height: 35px}
+.musicasB ul li { font-size:85%;display:block; color:white;text-decoration:none;padding:2%;margin-left:5} 
+.musicasB ul li:hover{background:linear-gradient(to right,black,#101010)!important;}
+.musicasB ul li {width:85%;}
+
+.banda{color:#a19a9a;}
+
+.explicit{width:6%;margin-right:1%; box-shadow:0 0 5px black;}
+
+.inconMusica{width:10px;margin-right:1%;}
+
+/*------RODAPE------*/
+
+/*foto do album*/
+.fotoAlbum{float:left;width:50px;padding:10px;}
+.rodape p{float:left;color:white;margin-top:20px;font-size:15px;}
+.nomeBanda{font-size:13px;color:gray;}
+
+/*barra do play*/
+.playbutton{width:15px;float: left;}
+.barra{width:35%;margin:0 auto;margin-top:55px;margin-right:35%;}
+
+/*Final do rodape*/
+.next{marin-left:40%;}
+.right{marin:0 auto;}
+.multimedia{marin:0 auto;}
+.left{marin:0 auto;}
+.back{marin:0 auto;}
+
+
+
+
+
+
 
 
 .capa{margin-left: auto; margin-right: auto;width:30%}
-.menu{ width: 15%; height:100%; background: black;float: left; overflow: hidden;position: relative;}
-.albuns{width: 40%; height: 100%; background:#171717;float: left;}
-.musicas{width: 45%;  height: 100%; background-color:#171717;float: left; box-shadow:0 0 4px black; overflow:auto;}
+.menu{ width: 12%; height:100%; background: black;float: left; overflow: hidden;position: relative;}
+.albuns{width: 35%; height: 100%; background:#171717;float: left;}
+.musicas{width: 53%;  height: 100%; background-color:#171717;float: left; overflow:auto;}
+
+
+.btn.btn-green {
+    background-color: #1db954;
+    padding: 9px 15px;
+    margin-top:5%;
+    margin-left:44%;    
+
+ }
+ 
+ .btn {
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: .015em;    
+    
+    color: #b3b3b3;    
+    letter-spacing: .16em;
+    -webkit-transition: none 33ms cubic-bezier(.3,0,.7,1);
+    transition: none 33ms cubic-bezier(.3,0,.7,1);
+        transition-property: none;
+    -webkit-transition-property: all;
+    transition-property: all;
+    color: #fff;
+    margin-top: 16px;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    background-image: none;
+    border: 0;
+    border-radius: 500px;
+    padding: 13px;
+    min-width: 130px;
+    white-space: normal;
+    will-change: transform;
+    line-height: 1.6;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+ .left{
+    clear: both;
+    width: 90%;
+    /* background-color:green; */
+    float: left;
+
+    
+ }
+ .timemusic{
+     text-align: center;
+    width: 10%;
+    /* background-color:orange; */
+    float: left;
+ }
+
+ .linha{margin:0 auto;}
+ .Babidy{float:left;width:35px;border-radius:20px;margin-left:10%;margin-top:5%;}
+ #kleber{margin-top:11%;float:left;margin-left:5%;color:white;font-size:13px;}
+ 
